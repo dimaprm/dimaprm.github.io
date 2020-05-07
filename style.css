@@ -22,8 +22,72 @@ span {
 a {
 	margin-top: 10em;
 }
+@media (max-width: 1199px) { 
+	body {
+	background-color: #151515;
+	color: #eeeeee;
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 20px;
+	}
+	.hide{
+		display: none;
+	}
+	div {
+		font-size: 20px;
+		margin-top: 2em;
+		margin-left: 1em;
+		margin-right: 1em;
+	}
+	p {
+		font-size: 20px;
+	}
+	span {
+		font-size: 25px;
+	}
+	a {
+		margin-top: 10em;
+	}
+}
 
-@media only screen and (max-width: 320px) {
+/* Стили для средних экранов (дисплей максимум 991 пикселей) */
+@media (max-width: 991px) { 
+	body {
+		background-color: #151515;
+		color: #eeeeee;
+		font-family: 'Share Tech Mono', monospace;
+		font-size: 20px;
+		}
+	.hide{
+		display: none;
+	}
+	div {
+		font-size: 20px;
+		margin-top: 2em;
+		margin-left: 1em;
+		margin-right: 1em;
+	}
+	p {
+		font-size: 20px;
+	}
+	span {
+		font-size: 25px;
+	}
+	a {
+		margin-top: 10em;
+	}
+}
+
+/* Стили для маленьких экранов (дисплей максимум 767 пикселей) */
+@media (max-width: 767px) {
+	body {
+	background-color: #151515;
+	color: #eeeeee;
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 20px;
+	}
+	.hide{
+		display: none;
+	}
 	div {
 	font-size: 30px;
 	margin-top: 2em;
@@ -35,6 +99,30 @@ a {
 	}
 	span {
 		font-size: 40px;
-		color: #ff0000;
+	}
+}
+
+/* Стили для очень маленьких экранов (дисплей максимум 575 пикселей) */
+@media (max-width: 575px) {
+	body {
+	background-color: #151515;
+	color: #eeeeee;
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 20px;
+	}
+	.hide{
+		display: none;
+	}
+	div {
+	font-size: 30px;
+	margin-top: 2em;
+	margin-left: 1em;
+	margin-right: 1em;
+	}
+	p {
+		font-size: 30px;
+	}
+	span {
+		font-size: 40px;
 	}
 }
