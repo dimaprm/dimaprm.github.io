@@ -1,0 +1,22 @@
+body {
+	background-color: #151515;
+	color: #eeeeee;
+	font-family: 'Share Tech Mono', monospace;
+}
+div {
+	font-size: 20px;
+	margin-top: 2em;
+	margin-left: 1em;
+}
+p {
+	font-size: 20px;
+}
+span {
+	font-size: 25px;
+}
+a {
+	margin-top: 10em;
+}
+.hide{
+	display: none;
+}
