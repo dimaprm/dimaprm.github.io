@@ -23,7 +23,7 @@ a {
 	margin-top: 10em;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 320px) {
 	div {
 	font-size: 30px;
 	margin-top: 2em;
