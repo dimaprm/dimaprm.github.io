@@ -24,6 +24,10 @@
 		a {
 			margin-top: 10em;
 		}
+		.hide{
+			display: none;
+		}
+
     </style>
   </head>
   <body>
@@ -31,6 +35,13 @@
 		<p>Добро пожаловать! На данной странице Вы всегда можете узнать актуальную ссылку на бота в случае его блокировки!<br>
 		Вы должны нажать на кнопку ниже для перехода в бота.</p>
 	</div>
-	<center><a href="tg://resolve?domain=dima059" class="btn btn-light"><span>Перейти в бота</span></a></center>
+	<center><a href="tg://resolve?domain=dima059" class="btn btn-light hide"><span>Перейти в бота</span></a></center>
+	<script>
+     window.onload = function() {
+        var hiddenElem = document.querySelector('.hide');
+        hiddenElem && hiddenElem.classList.remove('hide')
+        };
+ </script>
+
   </body>
 </html>
