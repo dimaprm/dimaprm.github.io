@@ -2,11 +2,16 @@ body {
 	background-color: #151515;
 	color: #eeeeee;
 	font-family: 'Share Tech Mono', monospace;
+	font-size: 20px;
+}
+.hide{
+	display: none;
 }
 div {
 	font-size: 20px;
 	margin-top: 2em;
 	margin-left: 1em;
+	margin-right: 1em;
 }
 p {
 	font-size: 20px;
@@ -17,6 +22,18 @@ span {
 a {
 	margin-top: 10em;
 }
-.hide{
-	display: none;
+
+@media only screen and (max-width: 768px) {
+	div {
+	font-size: 30px;
+	margin-top: 2em;
+	margin-left: 1em;
+	margin-right: 1em;
+	}
+	p {
+		font-size: 30px;
+	}
+	span {
+		font-size: 40px;
+	}
 }
